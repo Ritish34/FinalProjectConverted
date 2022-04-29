@@ -1,0 +1,178 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+      <context-param>
+        <param-name> username </param-name>
+        <param-value> "root" </param-value>
+    </context-param>
+
+    <context-param>
+        <param-name> pass  </param-name>
+        <param-value> "pass" </param-value>
+    </context-param>
+  <!-- <filter>
+  	<filter-name>UserAuthFilter</filter-name>
+  	<display-name>UserAuthFilter</display-name>
+  	<description></description>
+  	<filter-class>util.UserAuthFilter</filter-class>
+  </filter>
+  <filter>
+  	<filter-name>AdminAuthFilter</filter-name>
+  	<display-name>AdminAuthFilter</display-name>
+  	<description></description>
+  	<filter-class>util.AdminAuthFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>UserAuthFilter</filter-name>
+  	<url-pattern>/UserAuthFilter</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+  	<filter-name>AdminAuthFilter</filter-name>
+  	<url-pattern>/AdminAuthFilter</url-pattern>
+  </filter-mapping> -->
+  <servlet>
+  	<servlet-name>SendEmailController</servlet-name>
+  	<display-name>SendEmailController</display-name>
+  	<description></description>
+  	<servlet-class>controller.SendEmailController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SendEmailController</servlet-name>
+  	<url-pattern>/SendEmailController</url-pattern>
+  </servlet-mapping>
+<!--   <servlet>
+  	<servlet-name>LogoutController</servlet-name>
+  	<display-name>LogoutController</display-name>
+  	<description></description>
+  	<servlet-class>controller.LogoutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LogoutController</servlet-name>
+  	<url-pattern>/LogoutController</url-pattern>
+  </servlet-mapping> -->
+<!--   <servlet>
+  	<servlet-name>UpdateProfile</servlet-name>
+  	<display-name>UpdateProfile</display-name>
+  	<description></description>
+  	<servlet-class>controller.UpdateProfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UpdateProfile</servlet-name>
+  	<url-pattern>/UpdateProfile</url-pattern> 
+  </servlet-mapping>-->
+  <!-- <servlet>
+  	<servlet-name>GetAddressData</servlet-name>
+  	<display-name>GetAddressData</display-name>
+  	<description></description>
+  	<servlet-class>controller.GetAddressData</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteAddress</servlet-name>
+  	<display-name>DeleteAddress</display-name>
+  	<description></description>
+  	<servlet-class>controller.DeleteAddress</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetAddressData</servlet-name>
+  	<url-pattern>/GetAddressData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteAddress</servlet-name>
+  	<url-pattern>/DeleteAddress</url-pattern>
+  </servlet-mapping> -->
+ <!--  <servlet>
+  	<servlet-name>GetOneUserData</servlet-name>
+  	<display-name>GetOneUserData</display-name>
+  	<description></description>
+  	<servlet-class>controller.GetOneUserData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetOneUserData</servlet-name>
+  	<url-pattern>/GetOneUserData</url-pattern>
+  </servlet-mapping> -->
+<!--   <servlet>
+  	<servlet-name>ShowAllUser</servlet-name>
+  	<display-name>ShowAllUser</display-name>
+  	<description></description>
+  	<servlet-class>servlet.ShowAllUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteUser</servlet-name>
+  	<display-name>DeleteUser</display-name>
+  	<description></description>
+  	<servlet-class>controller.DeleteUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ShowAllUser</servlet-name>
+  	<url-pattern>/ShowAllUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteUser</servlet-name>
+  	<url-pattern>/DeleteUser</url-pattern>
+  </servlet-mapping> -->
+<!--   <filter>
+  	<filter-name>ValidationFilter</filter-name>
+  	<display-name>ValidationFilter</display-name>
+  	<description></description>
+  	<filter-class>util.ValidationFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>ValidationFilter</filter-name>
+  	<url-pattern>/ValidationFilter</url-pattern>
+  </filter-mapping> -->
+<!--   <servlet>
+  	<servlet-name>RegController</servlet-name>
+  	<display-name>RegController</display-name>
+  	<description></description>
+  	<servlet-class>controller.RegController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>loginController</servlet-name>
+  	<display-name>loginController</display-name>
+  	<description></description>
+  	<servlet-class>controller.loginController</servlet-class>
+  </servlet> -->
+<!--   <servlet>
+  	<servlet-name>header</servlet-name>
+  	<display-name>header</display-name>
+  	<description></description>
+  	<servlet-class>util.header</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Footer</servlet-name>
+  	<display-name>Footer</display-name>
+  	<description></description>
+  	<servlet-class>util.Footer</servlet-class>
+  </servlet> -->
+<!--   <servlet-mapping>
+  	<servlet-name>RegController</servlet-name>
+  	<url-pattern>/RegController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>loginController</servlet-name>
+  	<url-pattern>/loginController</url-pattern>
+  </servlet-mapping> -->
+<!--   <servlet-mapping>
+  	<servlet-name>header</servlet-name>
+  	<url-pattern>/header</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Footer</servlet-name>
+  	<url-pattern>/Footer</url-pattern>
+  </servlet-mapping> -->
+<!--   <servlet>
+  	<servlet-name>CheckEmailController</servlet-name>
+  	<display-name>CheckEmailController</display-name>
+  	<description></description>
+  	<servlet-class>controller.CheckEmailController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CheckEmailController</servlet-name>
+  	<url-pattern>/CheckEmail</url-pattern>
+  </servlet-mapping> -->
+  
+</web-app>
